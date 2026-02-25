@@ -1,0 +1,142 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DEVUP</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header id="header">
+      <div class="container header">
+        <h1 class="logo">DEV<span>UP</span></h1>
+
+        <!-- MENU HAMBURGUER (APENAS MOBILE) -->
+        <div class="menu-toggle" id="menuToggle">☰</div>
+
+        <nav id="nav">
+          <ul>
+            <li><a href="#inicio">Início</a></li>
+            <li><a href="#sobre">Sobre</a></li>
+            <li><a href="#modulos">Curso</a></li>
+            <li><a href="#contato">Contato</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <!-- HERO -->
+    <section class="hero" id="inicio">
+      <div>
+        <h2>Formação Completa em Desenvolvimento</h2>
+        <p>
+          Aprenda do zero ao profissional com projetos reais e suporte
+          especializado.
+        </p>
+        <a href="#contato" class="btn">Quero me Inscrever</a>
+      </div>
+    </section>
+
+    <!-- SOBRE -->
+    <section id="sobre">
+      <div class="container">
+        <h2 class="section-title">Sobre a DEVUP</h2>
+        <p class="center">
+          A DEVUP é uma formação intensiva voltada para quem deseja ingressar no
+          mercado de tecnologia. Aqui você aprende HTML, CSS, JavaScript, Java e
+          Banco de Dados de forma prática, desenvolvendo projetos reais desde o
+          início.
+        </p>
+        <p class="center">
+          Nosso foco é transformar iniciantes em desenvolvedores preparados para
+          o mercado, com uma metodologia direta, moderna e orientada à prática.
+        </p>
+      </div>
+    </section>
+
+    <!-- GRADE -->
+    <section id="modulos">
+      <div class="container">
+        <h2 class="section-title">Grade Completa do Curso</h2>
+
+        <div class="cards">
+          <div class="card">
+            <h3>HTML5</h3>
+            <p>Estruturação semântica profissional.</p>
+          </div>
+          <div class="card">
+            <h3>CSS3</h3>
+            <p>Layouts modernos e responsivos.</p>
+          </div>
+          <div class="card">
+            <h3>JavaScript</h3>
+            <p>Manipulação de DOM e lógica.</p>
+          </div>
+          <div class="card">
+            <h3>Java</h3>
+            <p>Back-end e orientação a objetos.</p>
+          </div>
+          <div class="card">
+            <h3>Banco de Dados</h3>
+            <p>MySQL e modelagem.</p>
+          </div>
+          <div class="card">
+            <h3>Git & GitHub</h3>
+            <p>Versionamento profissional.</p>
+          </div>
+          <div class="card">
+            <h3>Deploy</h3>
+            <p>Publicação de projetos.</p>
+          </div>
+          <div class="card">
+            <h3>Projetos Finais</h3>
+            <p>Sistema completo para portfólio.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SLIDER -->
+    <section class="slider-section">
+      <div class="slider">
+        <button class="prev">&#10094;</button>
+
+        <div class="slider-container">
+          <img src="images/img1.jpg" class="slide active" />
+          <img src="images/img2.jpg" class="slide" />
+          <img src="images/img3.jpg" class="slide" />
+        </div>
+
+        <button class="next">&#10095;</button>
+      </div>
+    </section>
+
+    <!-- INSCRIÇÃO -->
+    <section id="contato">
+      <div class="container">
+        <h2 class="section-title">Inscreva-se</h2>
+
+        <form id="formInscricao">
+          <input type="text" placeholder="Seu nome" required />
+          <input type="email" placeholder="Seu email" required />
+          <textarea placeholder="Mensagem"></textarea>
+          <button class="btn">Enviar</button>
+        </form>
+
+        <p id="mensagemSucesso"></p>
+      </div>
+    </section>
+
+    <footer>
+      <p>© 2026 DEVUP - Todos os direitos reservados</p>
+    </footer>
+
+    <button id="backToTop">↑</button>
+
+    <a href="https://wa.me/5551992047176" target="_blank" class="whatsapp-btn">
+      <img src="https://cdn-icons-png.flaticon.com/512/733/733585.png" />
+    </a>
+
+    <script src="script.js"></script>
+  </body>
+</html>
